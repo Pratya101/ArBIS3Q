@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Test">
+
+    <ImageView
+        android:id="@+id/info_background3"
+        android:layout_width="0dp"
+        android:layout_height="504dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pics_3"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/textbox_bg"
+        android:orientation="vertical"
+        android:padding="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <TextView
+            android:id="@+id/Text_info_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:text="@string/Mach_Rmuti"
+            android:textSize="@dimen/homeButtonFontSize" />
+
+        <TextView
+            android:id="@+id/Text_info_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Mach_detail"
+            android:textSize="@dimen/homeButtonFontSize" />
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

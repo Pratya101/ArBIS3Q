@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bis.kkc.rmuti.hongmoonmang.ActivityIntro">
+
+    <ImageView
+        android:id="@+id/info_background4"
+        android:layout_width="0dp"
+        android:layout_height="504dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pics_3"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <LinearLayout
+        android:layout_width="373dp"
+        android:layout_height="509dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/textbox_bg"
+        android:orientation="vertical"
+        android:padding="8dp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_bright"
+            android:onClick="ShowMach"
+            android:text="มาร์ชราชมงคล" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#80eeff"
+            android:onClick="ShowKrakKai"
+            android:text="ราชมงคลเกริกไกร" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_bright"
+            android:onClick="ShowKan"
+            android:text="เสียงเเคนราชมงคล" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF80EEFF"
+            android:onClick="ShowTor"
+            android:text="ไม่มีวันท้อ" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_bright"
+            android:onClick="ShowFather"
+                  android:text="ต้นไม่ของพ่อ" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

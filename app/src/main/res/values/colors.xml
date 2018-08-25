@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9900</color>
+    <color name="colorPrimaryDark">#FF6600</color>
+    <color name="colorAccent">#F9A825</color>
+
+    <color name="colorHomeButtonBackground">#FFFFCC</color>
+    <color name="colorHomeButtonBackgroundLight">#B3E5FC</color>
+    <color name="colorHomeButtonBackgroundDark">#0277BD</color>
+    <color name="colorHomeButtonBorder">#212121</color>
+    <color name="colorHomeButtonText">#FFFFFF</color>
+
+    <color name="colorTextLight">#FEFEFE</color>
+    <color name="colorTitle">#FEFEFE</color>
+
+    <color name="colorTextPrimaryDark">#212121</color>
+
+
+</resources>
